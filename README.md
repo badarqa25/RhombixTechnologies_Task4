@@ -12,7 +12,7 @@ S3 bucket + CloudFront CDN for hosting and serving static assets
 
 Terraform for Infrastructure as Code (IaC)
 
-📂 Project Structure
+📂 **Project Structure**
 
 ├── main.tf              # Terraform configuration for AWS resources
 ├── variables.tf         # Input variables for Terraform
