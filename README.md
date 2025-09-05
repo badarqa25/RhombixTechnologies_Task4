@@ -1,4 +1,4 @@
-🚀 Scalable Web Application Deployment on AWS with Terraform
+🚀 **Scalable Web Application Deployment on AWS with Terraform**
 
 This project demonstrates how to deploy a highly available and scalable web application on AWS using Terraform. The infrastructure includes:
 
@@ -13,6 +13,7 @@ S3 bucket + CloudFront CDN for hosting and serving static assets
 Terraform for Infrastructure as Code (IaC)
 
 📂 Project Structure
+
 ├── main.tf              # Terraform configuration for AWS resources
 ├── variables.tf         # Input variables for Terraform
 ├── userdata.sh          # Bootstrapping script for EC2 instances
@@ -21,7 +22,7 @@ Terraform for Infrastructure as Code (IaC)
 │   └── error.html       # Error page
 └── README.md            # Project documentation
 
-🛠️ AWS Resources Created
+🛠️ **AWS Resources Created**
 
 VPC + Subnets + Internet Gateway + Route Table
 
@@ -49,7 +50,7 @@ CloudFront Distribution
 
 Serves static site globally with caching.
 
-⚙️ Prerequisites
+⚙️ **Prerequisites**
 
 AWS Account
 
@@ -58,7 +59,7 @@ Terraform
 
 AWS CLI configured with credentials (aws configure)
 
-🚀 Deployment Steps
+🚀** Deployment Steps**
 
 Clone the repository
 
@@ -85,7 +86,7 @@ Apply configuration
 
 terraform apply -auto-approve
 
-📊 Outputs
+📊** Outputs**
 
 After successful deployment, Terraform will display:
 
@@ -93,7 +94,7 @@ ALB DNS Name → URL of the load balancer for the EC2 web app
 
 CloudFront URL → CDN endpoint for the static site
 
-📝 File Explanations
+📝 **File Explanations**
 
 main.tf → Defines all AWS resources
 
@@ -103,7 +104,7 @@ userdata.sh → Bootstraps EC2 (installs & runs a web server)
 
 index.html & error.html → Static site pages hosted in S3 + CloudFront
 
-🔍 Example Outputs
+🔍 **Example Outputs**
 alb_dns_name     = web-alb-1234567890.us-east-1.elb.amazonaws.com
 cloudfront_url   = d12345abcdef.cloudfront.net
 
