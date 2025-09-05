@@ -1,0 +1,20 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+crash.log
+*.log
+*.bak
+*.backup
+
+# Credentials / Keys
+*.pem
+*.key
+*.pub
+aws_credentials
+*.zip
+
+# OS / Editor files
+.DS_Store
+.vscode/
