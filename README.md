@@ -15,11 +15,17 @@ Terraform for Infrastructure as Code (IaC)
 📂 **Project Structure**
 
 ├── main.tf              # Terraform configuration for AWS resources
+
 ├── variables.tf         # Input variables for Terraform
+
 ├── userdata.sh          # Bootstrapping script for EC2 instances
+
 ├── static-site/
+
 │   ├── index.html       # Static homepage
+
 │   └── error.html       # Error page
+
 └── README.md            # Project documentation
 
 🛠️ **AWS Resources Created**
